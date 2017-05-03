@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6B9B3374BB9F550883A38E3 /* Pods_Food_Truck_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5587DAC317B2288D743D1E60 /* Pods_Food_Truck_Tracker.framework */; };
+		F56543291EB6EEBD00E81F55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56543281EB6EEBD00E81F55 /* AppDelegate.swift */; };
+		F565432B1EB6EEBD00E81F55 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F565432A1EB6EEBD00E81F55 /* MainViewController.swift */; };
+		F565432E1EB6EEBD00E81F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F565432C1EB6EEBD00E81F55 /* Main.storyboard */; };
+		F56543301EB6EEBD00E81F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F565432F1EB6EEBD00E81F55 /* Assets.xcassets */; };
+		F56543331EB6EEBD00E81F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56543311EB6EEBD00E81F55 /* LaunchScreen.storyboard */; };
+		F565433B1EB6F37E00E81F55 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F565433A1EB6F37E00E81F55 /* ConnectionManager.swift */; };
+		F575F9851EB792D400DA9C1F /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F575F9841EB792D400DA9C1F /* UIImage+Resize.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22C15E43478E9E945D1F5102 /* Pods-Food Truck Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Truck Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Food Truck Tracker/Pods-Food Truck Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		5587DAC317B2288D743D1E60 /* Pods_Food_Truck_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Truck_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB512C5568E9AAE3DA292EE4 /* Pods-Food Truck Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Truck Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Food Truck Tracker/Pods-Food Truck Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		F56543251EB6EEBD00E81F55 /* Food Truck Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Truck Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56543281EB6EEBD00E81F55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F565432A1EB6EEBD00E81F55 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F565432D1EB6EEBD00E81F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F565432F1EB6EEBD00E81F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F56543321EB6EEBD00E81F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F56543341EB6EEBD00E81F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F565433A1EB6F37E00E81F55 /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		F575F9841EB792D400DA9C1F /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F56543221EB6EEBD00E81F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B9B3374BB9F550883A38E3 /* Pods_Food_Truck_Tracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12504FFB43584925ACD0E520 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5587DAC317B2288D743D1E60 /* Pods_Food_Truck_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A233A71B1D153BB0EA5ADC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB512C5568E9AAE3DA292EE4 /* Pods-Food Truck Tracker.debug.xcconfig */,
+				22C15E43478E9E945D1F5102 /* Pods-Food Truck Tracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F565431C1EB6EEBD00E81F55 = {
+			isa = PBXGroup;
+			children = (
+				F56543271EB6EEBD00E81F55 /* Food Truck Tracker */,
+				F56543261EB6EEBD00E81F55 /* Products */,
+				8A233A71B1D153BB0EA5ADC7 /* Pods */,
+				12504FFB43584925ACD0E520 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F56543261EB6EEBD00E81F55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F56543251EB6EEBD00E81F55 /* Food Truck Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F56543271EB6EEBD00E81F55 /* Food Truck Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				F565433D1EB700A000E81F55 /* Utils */,
+				F565433C1EB7009000E81F55 /* Views */,
+				F56543281EB6EEBD00E81F55 /* AppDelegate.swift */,
+				F565432C1EB6EEBD00E81F55 /* Main.storyboard */,
+				F565432F1EB6EEBD00E81F55 /* Assets.xcassets */,
+				F56543311EB6EEBD00E81F55 /* LaunchScreen.storyboard */,
+				F56543341EB6EEBD00E81F55 /* Info.plist */,
+			);
+			path = "Food Truck Tracker";
+			sourceTree = "<group>";
+		};
+		F565433C1EB7009000E81F55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F565432A1EB6EEBD00E81F55 /* MainViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F565433D1EB700A000E81F55 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F565433A1EB6F37E00E81F55 /* ConnectionManager.swift */,
+				F575F9841EB792D400DA9C1F /* UIImage+Resize.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F56543241EB6EEBD00E81F55 /* Food Truck Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56543371EB6EEBD00E81F55 /* Build configuration list for PBXNativeTarget "Food Truck Tracker" */;
+			buildPhases = (
+				66BA9413CD1EBCC7BE9F10D1 /* [CP] Check Pods Manifest.lock */,
+				F56543211EB6EEBD00E81F55 /* Sources */,
+				F56543221EB6EEBD00E81F55 /* Frameworks */,
+				F56543231EB6EEBD00E81F55 /* Resources */,
+				8DD1473C9E8EA5E390D5EBEB /* [CP] Embed Pods Frameworks */,
+				D1AC060C6932CB33D849797E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food Truck Tracker";
+			productName = "Food Truck Tracker";
+			productReference = F56543251EB6EEBD00E81F55 /* Food Truck Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F565431D1EB6EEBD00E81F55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Drivebook;
+				TargetAttributes = {
+					F56543241EB6EEBD00E81F55 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2PK5FKH72X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F56543201EB6EEBD00E81F55 /* Build configuration list for PBXProject "Food Truck Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F565431C1EB6EEBD00E81F55;
+			productRefGroup = F56543261EB6EEBD00E81F55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F56543241EB6EEBD00E81F55 /* Food Truck Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F56543231EB6EEBD00E81F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56543331EB6EEBD00E81F55 /* LaunchScreen.storyboard in Resources */,
+				F56543301EB6EEBD00E81F55 /* Assets.xcassets in Resources */,
+				F565432E1EB6EEBD00E81F55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66BA9413CD1EBCC7BE9F10D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DD1473C9E8EA5E390D5EBEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Food Truck Tracker/Pods-Food Truck Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1AC060C6932CB33D849797E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Food Truck Tracker/Pods-Food Truck Tracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F56543211EB6EEBD00E81F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F565432B1EB6EEBD00E81F55 /* MainViewController.swift in Sources */,
+				F575F9851EB792D400DA9C1F /* UIImage+Resize.swift in Sources */,
+				F565433B1EB6F37E00E81F55 /* ConnectionManager.swift in Sources */,
+				F56543291EB6EEBD00E81F55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F565432C1EB6EEBD00E81F55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F565432D1EB6EEBD00E81F55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F56543311EB6EEBD00E81F55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56543321EB6EEBD00E81F55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F56543351EB6EEBD00E81F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F56543361EB6EEBD00E81F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F56543381EB6EEBD00E81F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB512C5568E9AAE3DA292EE4 /* Pods-Food Truck Tracker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2PK5FKH72X;
+				INFOPLIST_FILE = "Food Truck Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drivebook.ftt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F56543391EB6EEBD00E81F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C15E43478E9E945D1F5102 /* Pods-Food Truck Tracker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2PK5FKH72X;
+				INFOPLIST_FILE = "Food Truck Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drivebook.ftt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F56543201EB6EEBD00E81F55 /* Build configuration list for PBXProject "Food Truck Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56543351EB6EEBD00E81F55 /* Debug */,
+				F56543361EB6EEBD00E81F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56543371EB6EEBD00E81F55 /* Build configuration list for PBXNativeTarget "Food Truck Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56543381EB6EEBD00E81F55 /* Debug */,
+				F56543391EB6EEBD00E81F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F565431D1EB6EEBD00E81F55 /* Project object */;
+}

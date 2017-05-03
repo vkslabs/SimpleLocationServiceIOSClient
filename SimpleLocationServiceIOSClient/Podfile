@@ -1,0 +1,7 @@
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+target 'Food Truck Tracker' do
+  pod 'GoogleMaps'
+  pod 'Alamofire', '~> 4.4'
+#  pod 'GooglePlaces'
+end
